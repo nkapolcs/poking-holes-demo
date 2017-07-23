@@ -1,5 +1,3 @@
-# poking-holes-demo
-
 Poking Holes and Cutting Corners
 =========
 
