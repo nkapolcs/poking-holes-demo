@@ -20,7 +20,8 @@ Read more here: [License](https://choosealicense.com/licenses/mit/)
 | $flex-wrap       | null          | null, nowrap, wrap, wrap-reverse |  |
 | $flex-flow       | null          | null, [row, row-reverse, column, column-reverse] [nowrap, wrap, wrap-reverse] | a shorthand for setting the flex-direction and flex-wrap properties |
 | $justify-content | null          | null, flex-start, flex-end, center, space-between, space-around | defines the alignment along the main axis. |
-| $align-items     | null          | null, flex-start, flex-end, center, baseline, stretch	    | git status    |
-| $align-content   | null          | null, flex-start, flex-end, center, space-between, space-around, stretch	    | git status    |
-| $gutter          | null          | null, <percentage>, <length> | null is no margin of both ends of the grid. <percentage> generate a margin of both ends of the grid. <length> generate a margin of both ends of the grid (<length> is experimental stage). |
+| $align-items     | null          | null, flex-start, flex-end, center, baseline, stretch |  |
+| $align-content   | null          | null, flex-start, flex-end, center, space-between, space-around, stretch |  |
+| $gutter          | null          | null, [`<percentage>`](https://www.w3.org/TR/CSS21/syndata.html#percentage-units), [`<length>`](https://www.w3.org/TR/CSS21/syndata.html#length-units), | null is no margin of both ends of the grid. `<percentage>` generate a margin of both ends of the grid. `<length>` generate a margin of both ends of the grid (`<length>` is experimental stage). |
 | $grid-type       | skeleton      | skeleton, margin-offset | the type of grid |
+
