@@ -15,12 +15,12 @@ Read more here: [License](https://choosealicense.com/licenses/mit/)
 
 | Arguments        | Default value | Values        | Description   |
 | :---             | :---          | :---          | :---          |
-| $display         | flex          | flex, inline-flex    | git status    |
-| $flex-direction  | null          | null, row, row-reverse, column, column-reverse | git diff      |
-| $flex-wrap       | null          | null, nowrap, wrap, wrap-reverse	    | git status    |
-| $flex-flow       | null          | null, [row, row-reverse, column, column-reverse] [nowrap, wrap, wrap-reverse]    | git status    |
-| $justify-content | null          | null, flex-start, flex-end, center, space-between, space-around    | git status    |
+| $display         | flex          | flex, inline-flex | generate a block-level or an inline-level grid container |
+| $flex-direction  | null          | null, row, row-reverse, column, column-reverse |  |
+| $flex-wrap       | null          | null, nowrap, wrap, wrap-reverse |  |
+| $flex-flow       | null          | null, [row, row-reverse, column, column-reverse] [nowrap, wrap, wrap-reverse] | a shorthand for setting the flex-direction and flex-wrap properties |
+| $justify-content | null          | null, flex-start, flex-end, center, space-between, space-around | defines the alignment along the main axis. |
 | $align-items     | null          | null, flex-start, flex-end, center, baseline, stretch	    | git status    |
 | $align-content   | null          | null, flex-start, flex-end, center, space-between, space-around, stretch	    | git status    |
-| $gutter          | null          | null, <percentage>, <length>    | git status    |
-| $grid-type       | skeleton      | skeleton, margin-offset    | git status    |
+| $gutter          | null          | null, <percentage>, <length> | null is no margin of both ends of the grid. <percentage> generate a margin of both ends of the grid. <length> generate a margin of both ends of the grid (<length> is experimental stage). |
+| $grid-type       | skeleton      | skeleton, margin-offset | the type of grid |
