@@ -52,7 +52,9 @@ Define the grid container.
 | $gutter          | null          | null, [`<percentage>`](https://www.w3.org/TR/CSS21/syndata.html#percentage-units), [`<length>`](https://www.w3.org/TR/CSS21/syndata.html#length-units) | null is no margin of both ends of the grid. `<percentage>` generate a margin of both ends of the grid. `<length>` generate a margin of both ends of the grid (`<length>` is experimental stage). |
 | $grid-type       | skeleton      | skeleton, margin-offset | the type of grid |
 
----
+
+<br>
+<br>
 
 #### @include grid-col($col: null, $grid-columns: 12, $col-offset: null, $gutter: null, $condensed: false, $align-self: null, $flex-grow: 0, $flex-shrink: 1, $flex-basis: auto, $order: null, $grid-type: skeleton, $last-child: false);
 
@@ -75,7 +77,9 @@ The use of CSS calc() is experimental stage. If $col sets <number> or <width> an
 | $grid-type    | skeleton | skeleton, margin-offset | the type of grid |
 | $last-child   | false    | 	true, false | adjust the last-child of the columns, if the $grid-type is `margin-offset` |
 
----
+
+<br>
+<br>
 
 #### @include grid-margin($margin: null, $margin-top: null, $margin-right: null, $margin-bottom: null, $margin-left: null);
 
@@ -89,8 +93,9 @@ Generate the margins around grids.
 | $margin-bottom | null | null, [`<margin-width>`](https://www.w3.org/TR/CSS21/box.html#value-def-margin-width) |  |
 | $margin-left   | null | null, [`<margin-width>`](https://www.w3.org/TR/CSS21/box.html#value-def-margin-width) |  |
 
----
 
+<br>
+<br>
 
 #### @include grid-col-margin($margin: null, $margin-top: null, $margin-right: null, $margin-bottom: null, $margin-left: null);
 
