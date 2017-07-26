@@ -10,4 +10,18 @@ Integrate or build upon it for free in your personal or commercial projects. Don
 Read more here: [License](https://choosealicense.com/licenses/mit/)
 
 
-© nkapolcs 2016
+© nkapolcs 2017
+
+
+| Arguments        | Default value  | Values        | Description   |
+| :---             | :---           | :---          | :---          |
+| $display         | git status     | git status    | git status    |
+| $flex-direction  | git diff       | git diff      | git diff      |
+| $flex-wrap       | git status     | git status    | git status    |
+| $flex-flow       | git status     | git status    | git status    |
+| $justify-content | git status     | git status    | git status    |
+| $align-items     | git status     | git status    | git status    |
+| $align-content   | git status     | git status    | git status    |
+| $gutter          | git status     | git status    | git status    |
+| $grid-type       | git status     | git status    | git status    |
+
