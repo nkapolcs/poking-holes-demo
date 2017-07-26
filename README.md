@@ -14,8 +14,25 @@ Read more here: [License](https://choosealicense.com/licenses/mit/)
 
 ## Table of contents
 
+- [What's included](#whats-included)
 - [Layout](#layout)
 - [Media Queries](#media-queries)
+
+## What's included
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
+```
+framework/
+└── resources/
+    └── assets/
+        ├── sass/
+        │   └── style.scss
+        │
+        └── js/
+            ├── Form/
+            └── Utils/
+```
 
 ## Layout
 
