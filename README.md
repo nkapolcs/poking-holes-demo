@@ -13,15 +13,14 @@ Read more here: [License](https://choosealicense.com/licenses/mit/)
 © nkapolcs 2017
 
 
-| Arguments        | Default value  | Values        | Description   |
-| :---             | :---           | :---          | :---          |
-| $display         | git status     | git status    | git status    |
-| $flex-direction  | git diff       | git diff      | git diff      |
-| $flex-wrap       | git status     | git status    | git status    |
-| $flex-flow       | git status     | git status    | git status    |
-| $justify-content | git status     | git status    | git status    |
-| $align-items     | git status     | git status    | git status    |
-| $align-content   | git status     | git status    | git status    |
-| $gutter          | git status     | git status    | git status    |
-| $grid-type       | git status     | git status    | git status    |
-
+| Arguments        | Default value | Values        | Description   |
+| :---             | :---          | :---          | :---          |
+| $display         | flex          | flex, inline-flex    | git status    |
+| $flex-direction  | null          | null, row, row-reverse, column, column-reverse | git diff      |
+| $flex-wrap       | null          | null, nowrap, wrap, wrap-reverse	    | git status    |
+| $flex-flow       | null          | null, [row, row-reverse, column, column-reverse] [nowrap, wrap, wrap-reverse]    | git status    |
+| $justify-content | null          | null, flex-start, flex-end, center, space-between, space-around    | git status    |
+| $align-items     | null          | null, flex-start, flex-end, center, baseline, stretch	    | git status    |
+| $align-content   | null          | null, flex-start, flex-end, center, space-between, space-around, stretch	    | git status    |
+| $gutter          | null          | null, <percentage>, <length>    | git status    |
+| $grid-type       | skeleton      | skeleton, margin-offset    | git status    |
