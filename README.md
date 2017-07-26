@@ -12,6 +12,11 @@ Read more here: [License](https://choosealicense.com/licenses/mit/)
 
 © nkapolcs 2017
 
+## Table of contents
+
+- [Layout](#layout)
+- [Media Queries](#media-queries)
+
 ## Layout
 
 #### @include grid($display: flex, $flex-direction: null, $flex-wrap: null, $flex-flow: null, $justify-content: null, $align-items: null, $align-content: null, $gutter: null, $grid-type: skeleton);
@@ -85,11 +90,39 @@ Generate the margins around columns. Work as alias grid-margin().
 
 ## Media Queries
 
-mobile-portrait		: 320px !default;
-mobile-landscape	: 576px !default;
-tablet-portrait		: 768px !default;
-tablet-landscape	: 992px !default;
-desktop				    : 1200px !default;
+The media queries from mobile up until desktop all trigger at different points along the way
+
+- mobile-portrait		: 320px !default;
+- mobile-landscape	: 576px !default;
+- tablet-portrait		: 768px !default;
+- tablet-landscape	: 992px !default;
+- desktop				    : 1200px !default;
+
+| Arguments        | Min value ( x > ) | Max value ( x < ) |
+| :---             | :---              | :---              |
+| mobile-only                | 0 | mobile-landscap0 |
+| mobile-portrait-only       | 0 | mobile-portrait |
+| mobile-portrait-and-below  | 0 | mobile-portrait |
+| mobile-portrait-and-up     | mobile-portrait | ∞ |
+| mobile-landscape-only      | a | b |
+| mobile-landscape-and-below | a | b |
+| mobile-landscape-and-up    | a | b |
+| a | a | b |
+- 
+-
+- 
+- tablet-only
+- tablet-portrait-only
+- tablet-portrait-and-below
+- tablet-portrait-and-up
+- tablet-landscape-only
+- tablet-landscape-and-below
+- tablet-landscape-and-up
+- desktop-and-up
+- desktop-and-below
+- desktop-only
+- retina
+
 
 [`<percentage>`](https://www.w3.org/TR/CSS21/syndata.html#percentage-units)
 [`<length>`](https://www.w3.org/TR/CSS21/syndata.html#length-units)
