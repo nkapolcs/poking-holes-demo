@@ -100,28 +100,24 @@ The media queries from mobile up until desktop all trigger at different points a
 
 | Arguments        | Min value ( x > ) | Max value ( x < ) |
 | :---             | :---              | :---              |
-| mobile-only                | 0 | mobile-landscap0 |
+| mobile-only                | 0 | mobile-landscape |
 | mobile-portrait-only       | 0 | mobile-portrait |
 | mobile-portrait-and-below  | 0 | mobile-portrait |
 | mobile-portrait-and-up     | mobile-portrait | ∞ |
-| mobile-landscape-only      | a | b |
-| mobile-landscape-and-below | a | b |
-| mobile-landscape-and-up    | a | b |
-| a | a | b |
-- 
--
-- 
-- tablet-only
-- tablet-portrait-only
-- tablet-portrait-and-below
-- tablet-portrait-and-up
-- tablet-landscape-only
-- tablet-landscape-and-below
-- tablet-landscape-and-up
-- desktop-and-up
-- desktop-and-below
-- desktop-only
-- retina
+| mobile-landscape-only      | mobile-portrait + 1 | mobile-landscape |
+| mobile-landscape-and-below | 0 | mobile-landscape |
+| mobile-landscape-and-up    | mobile-landscape + 1 | ∞ |
+| tablet-only                | mobile-landscape + 1 | tablet-landscape |
+| tablet-portrait-only       | mobile-landscape + 1 | tablet-portrait |
+| tablet-portrait-and-below  | 0 | tablet-portrait |
+| tablet-portrait-and-up     | mobile-landscape + 1  | ∞ |
+| tablet-landscape-only      | tablet-portrait + 1 | tablet-landscape |
+| tablet-landscape-and-below | 0 | tablet-landscape |
+| tablet-landscape-and-up    | tablet-portrait + 1 | ∞ |
+| desktop-only               | tablet-landscape + 1 | desktop |
+| desktop-and-up             | tablet-landscape + 1 | ∞ |
+| desktop-and-below          | 0 | desktop |
+| retina                     | min-device-pixel-ratio : 1.5 | ∞ |
 
 
 [`<percentage>`](https://www.w3.org/TR/CSS21/syndata.html#percentage-units)
